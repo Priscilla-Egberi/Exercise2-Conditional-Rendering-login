@@ -2,12 +2,13 @@ import React from "react";
 import "../styles.css";
 import Form from "./Form";
 
-var userIsRegistered = false;
+// play around with the value true by changing it to false and see the magic in your browser
+var userIsRegistered = true;
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Form />
+        <Form isRegistered={userIsRegistered} />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import "../styles.css";
 import Form from "./Form";
 
 // play around with the value true by changing it to false and see the magic in your browser
-var userIsRegistered = true;
+var userIsRegistered = false;
 export default function App() {
   return (
     <div className="App">
